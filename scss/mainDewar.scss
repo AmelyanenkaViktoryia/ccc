@@ -1,0 +1,630 @@
+*  {
+  box-sizing: border-box;
+}
+/* header top */
+
+@media screen and (max-width: 64em) {
+  .wrapper_top_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .wrapper_bottom_header {
+    display: none;
+    .wrapper-menu {
+      .menu {      
+        display: block;
+        margin-top: 0;
+        overflow: hidden;
+        padding: 0;
+        padding-bottom: 2.25em;
+        max-height: 80vh;
+        li {
+          display: block;
+          font-size: 1rem;
+        }
+      }
+      .menu > li {
+        border-bottom: 3px solid #fff;
+        border-top: none!important;
+        margin: 0 1.1rem!important;
+      }
+      .menu > li a {
+        height: 100%;
+        overflow: auto;
+        font-size: 1rem;
+      }
+    } 
+  }
+  .sign-in {
+    position: absolute;
+    right: 0;
+    margin: 0 1rem;
+  }
+  .sign-in {
+    a {
+      color: #fff;
+      text-decoration: none;
+      position: relative;
+      z-index: 1;
+      font-family: inherit;
+      text-transform: uppercase;
+      font-weight: normal;
+      font-size: 13px;
+      border-bottom: solid 2px #ffffff;
+      margin-right: 5px!important;
+      letter-spacing: 1px;
+    }
+    i {
+      display: none;
+    }
+  }
+  .burger-button {
+    left: 0;
+    margin: 0 1rem;
+  }  
+}
+
+@media screen and (max-width: 48em) {
+  .wrapper_top_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .wrapper_bottom_header {
+    display: none;
+    .wrapper-menu {
+      .menu {      
+        display: block;
+        margin-top: 0;
+        overflow: hidden;
+        padding: 0;
+        padding-bottom: 2.25em;
+        max-height: 80vh;
+        li {
+          display: block;
+          font-size: 1rem;
+        }
+      }
+      .menu > li {
+        border-bottom: 3px solid #fff;
+        border-top: none!important;
+        margin: 0 1.1rem!important;
+      }
+      .menu > li a {
+        height: 100%;
+        overflow: auto;
+        font-size: 1rem;
+      }
+    } 
+  }
+  .sign-in {
+    position: absolute;
+    right: 0;
+    margin: 0 1rem;
+  }
+  .sign-in {
+    a {
+      color: #fff;
+      text-decoration: none;
+      position: relative;
+      z-index: 1;
+      font-family: inherit;
+      text-transform: uppercase;
+      font-weight: normal;
+      font-size: 13px;
+      border-bottom: solid 2px #ffffff;
+      margin-right: 5px!important;
+      letter-spacing: 1px;
+    }
+    i {
+      display: none;
+    }
+  }
+  .burger-button {
+    left: 0;
+    margin: 0 1rem;
+  }
+  .wrapper-image {
+    width: 80%;
+    min-height: 550px;
+    max-height: 0;
+    &.dram {
+      background: url('https://s3.amazonaws.com/johnsdewarsandsons/wp-content/uploads/2017/06/30102410/golden-dram-small-1.png') no-repeat;
+      background-size: contain;
+      background-position: 50% 50%;
+      }
+      &.aberfeldy {
+        background: url('https://s3.amazonaws.com/johnsdewarsandsons/wp-content/uploads/2017/06/30102413/home-aberfeldy-1.png') no-repeat;
+        background-size: contain;      
+        background-position: 50% 50%;
+      }
+      &.years12 {
+        background: url('https://s3.amazonaws.com/johnsdewarsandsons/wp-content/uploads/2017/06/30102420/home-dewars1.png') no-repeat;
+        background-size: contain; 
+        background-position: 50% 50%;
+      }
+  }   
+  .wrapper-base {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+}
+
+@media screen and (max-width: 35.5em) {
+  body {
+    font-size: .9375rem;
+  }
+  .wrapper_top_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .header h1 {
+    font-size: 0;
+    margin: 1.5rem 0 0;
+  }
+  .header h1 a {
+    display: block;
+    text-decoration: none;
+  }
+  .wrapper_top_header img {
+    margin-bottom: 1.375rem;
+    height: 40px;
+  }
+  .burger-button {
+    left: 0;
+    margin: 0 1rem;
+  }
+  .sign-in {
+    background: transparent;
+    border: .125rem solid #fff;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    height: 2.3rem;
+    padding: .3rem .5rem;
+    right: 0;
+    width: 2.3rem;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+    bottom: 2px;
+    right: 0;
+    margin: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+      display: none;
+    }
+    i {
+      display: block;
+    }
+  }
+  .wrapper_bottom_header {
+    display: none;
+    .wrapper-menu {
+      .menu {      
+        display: block;
+        margin-top: 0;
+        overflow: hidden;
+        padding: 0;
+        padding-bottom: 2.25em;
+        max-height: 80vh;
+        li {
+          display: block;
+          font-size: 1rem;
+        }
+      }
+      .menu > li {
+        border-bottom: 3px solid #fff;
+        border-top: none!important;
+        margin: 0 1.1rem!important;
+      }
+      .menu > li a {
+        height: 100%;
+        overflow: auto;
+        font-size: 1rem;
+      }
+    } 
+  }
+  .home-slider {
+    max-height: 550px;
+    min-height: 550px;
+  }   
+  .wrapper-cocktail {
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+  }
+  .wrapper-cocktail p {
+    min-height: 100px;
+  }
+  .wrapper-image {
+    width: 80%;
+    min-height: 350px;
+    max-height: 0;
+    &.dram {
+    background: url('https://s3.amazonaws.com/johnsdewarsandsons/wp-content/uploads/2017/06/30102410/golden-dram-small-1.png') no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+    }
+    &.aberfeldy {
+      background: url('https://s3.amazonaws.com/johnsdewarsandsons/wp-content/uploads/2017/06/30102413/home-aberfeldy-1.png') no-repeat;
+      background-size: contain;      
+      background-position: 50% 50%;
+    }
+    &.years12 {
+      background: url('https://s3.amazonaws.com/johnsdewarsandsons/wp-content/uploads/2017/06/30102420/home-dewars1.png') no-repeat;
+      background-size: contain; 
+      background-position: 50% 50%;
+    }
+  }
+  .wrapper-base {
+    flex-direction: column;
+  }
+}
+
+/* common styles start */
+
+html {
+  font-size: 16px;
+}
+body {
+  background: #000;
+  line-height: 1.875;
+  color: #1f1f1f;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  min-height: 100vh;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+}
+.mrb-60 { 
+  margin-bottom: 60px;
+}
+.mrb-80 { 
+  margin-bottom: 80px;
+}
+header {
+  background-image: url('../img/copper-2.jpg');
+  background-size: 100%;
+  border-bottom: 3px solid #d28e6d;
+  z-index: 102!important;
+}
+.burger-button {
+  background: transparent;
+  border: .125rem solid #fff;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  height: 2.3rem;
+  padding: .3rem .5rem;
+  right: 0;
+  width: 2.3rem;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper-menu {
+  border-top: 2px solid #d28e6d;
+  overflow: hidden;
+  background: #000;
+  .menu > li { 
+    flex: 1 0 auto;
+    text-align: center;
+  }
+  .menu a {
+    border-bottom: none;
+    text-transform: uppercase;
+    padding: 0;
+    text-decoration: none;
+  }
+  .menu > li > a {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 1.7rem;
+    padding: .7rem 1.3rem .6rem;
+    position: relative;
+    left: auto;
+    top: auto;
+    color: #fff;
+  }  
+}
+.section:first-of-type {
+  border-bottom: 2px solid #d28e6d;
+}
+.section.home-slider {
+  background: url('https://s3.amazonaws.com/johnsdewarsandsons/wp-content/uploads/2017/06/17152230/home-carousel-drinks-d12-2.jpg') no-repeat center transparent;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+}
+.slick-slider {
+  position: relative;
+  display: block;
+  user-select: none;
+  touch-action: pan-y;
+  min-height: 650px;
+}
+.slick-slider > div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+}
+.wrapper-base {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contained {  
+  text-align: center;
+  max-width: 71.75em;
+  padding: 0 1.5em;
+  margin: 0 auto;
+  .button {
+    border-radius: 1rem;
+    padding: 10px 35px;
+    max-width: 300px;
+    margin: auto;
+    background: #af723a;
+    border: 1px solid #af723a;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+    &:hover {
+      background: #89592d;
+      border-color: #89592d;
+    }
+    &.transparent {
+      background: transparent;
+      border: 2px solid #af723a;
+      width: 80%;
+      a {
+        color: #af723a;
+      }
+    }
+  }
+    h3, h2 {
+      color: #fff;
+      text-transform: uppercase;
+      margin: 0;
+    }
+    h3 {
+      font-size: 1.5rem;
+      line-height: 1em;
+    }
+    h2 {
+      font-size: 2.5rem;
+      line-height: 1.2em;
+    }
+  }
+.thin-divider, .wide-divider {
+  width: 65px;
+  background-color: #af723a;
+}
+.thin-divider {
+  height: 2px;
+  margin: 15px 0 5px 0;
+}
+.wide-divider {
+  height: 4px;
+  &.mrb-40 {
+    margin-bottom: 40px;
+  }
+}
+.hero-slide-pipes {
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  pointer-events: none;
+  background: url('https://www.dewars.com/wp-content/themes/bacardi-foundation/dist/images/Dewars-Home-Pipes-Large.png') no-repeat center;
+  background-size: cover;
+}
+.scroll-for-more {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    opacity: .8;
+  }
+  img {
+    margin-bottom: 10px;
+  }
+}
+.container-banner {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.wrapper-cocktail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper-cocktail p {
+  color: #fff;
+}
+
+/* common styles end */
+
+
+@media screen and (min-width: 48em){
+  .wrapper-cocktail {
+    flex-basis: 33.33333333%;
+    width: 33.33333333%; 
+    h3 {
+      font-size: 2.0625rem;
+      line-height: 1.2;
+      padding: 1.2em 1.5rem 0;
+      letter-spacing: .5px;
+      padding-top: 1rem;
+    }
+    p {
+      min-height: 150px;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      padding: 0 1rem;
+      font-size: 1.17rem;
+      line-height: 1.375;
+    }
+  }
+  .wrapper-base {
+    flex-direction: row; 
+    align-items: stretch;    
+  } 
+  .wrapper-image {
+    width: 80%;
+    min-height: 450px;
+    max-height: 0;
+    display: flex;
+    justify-content: flex-end;
+    &.dram {
+    background: url('https://s3.amazonaws.com/johnsdewarsandsons/wp-content/uploads/2017/06/30102410/golden-dram-small-1.png') no-repeat;
+    background-size: contain;
+    background-position: 0 100%;
+    }
+    &.aberfeldy {
+      background: url('https://s3.amazonaws.com/johnsdewarsandsons/wp-content/uploads/2017/06/30102413/home-aberfeldy-1.png') no-repeat;
+      background-size: contain;      
+      background-position: 0 100%;
+    }
+    &.years12 {
+      background: url('https://s3.amazonaws.com/johnsdewarsandsons/wp-content/uploads/2017/06/30102420/home-dewars1.png') no-repeat;
+      background-size: contain; 
+      background-position: 0 100%;
+    }
+  }
+}
+@media screen and (min-width: 64.0625em){
+  .wrapper_top_header {
+    text-align: center;
+  }
+  .wrapper_bottom_header {
+    padding: 0 1.5em;
+    margin: 0 auto;
+    ul li {
+      display: inline-block;
+    }
+    .menu {
+      margin: 0;
+      padding-left: 0;
+      display: flex;
+      padding: 10px 0;
+    }
+    .menu > li {
+      flex: 1 0 auto;
+      margin: 0 .0625rem 0 0;
+      padding-top: 10px;
+      border-top: 3px solid #d28e6d;
+      cursor: pointer;
+      position: relative;
+      &::after {
+        content: "•";
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        top: 12%;
+        color: #5a291e;
+        font-size: 33px;
+      }
+      &:hover a{
+        background-color: #5a291e;
+      }
+    }  
+    .wrapper-menu {
+      background: none;
+      border-top: none;
+      overflow: hidden;
+    }
+  }
+  .sign-in {
+    height: 50px;
+    width: 100%;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    .wrapper-signIn {
+      margin-right: 2rem;
+    }
+    i {
+      display: none;
+    }
+    a {
+      color: #fff;
+      text-decoration: none;
+      position: relative;
+      z-index: 1;
+      font-family: inherit;
+      text-transform: uppercase;
+      font-weight: normal;
+      font-size: 13px;
+      border-bottom: solid 2px #ffffff;
+      margin-right: 5px!important;
+      letter-spacing: 1px;
+    }
+  }   
+  .burger-button {
+    display: none;
+  }
+  .header {
+    position: relative;
+    padding-top: 50px;
+  }
+  .slick-slider > div {
+    flex-basis: 50%!important;
+    max-width: 50%!important;
+  }  
+  .wrapper-base {
+    flex-direction: row; 
+    align-items: stretch;
+  } 
+}
+
+@media screen and (max-height: 850px){
+  .home-slider {
+    min-height: 650px;
+  }
+}
+
+@media screen and (max-height: 667px){
+  .home-slider {
+    max-height: 600px;
+  }
+}
